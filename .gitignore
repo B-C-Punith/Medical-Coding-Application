@@ -29,5 +29,25 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+medcode-vault). Add a .gitignore for Java + Node. Add a basic README.md
+ith just the
+ project name : Medicla coding
+ and one sentence — you'll flesh it out in Month 6.
+
+# Node/React
+   node_modules/
+   frontend/build/
+   frontend/dist/
+   .env
+   .env.local
+
+   # Java/Spring
+   target/
+   *.class
+   application-local.yml
+
+   # IDE
+   .idea/
+   .vscode/
+   *.iml
+
