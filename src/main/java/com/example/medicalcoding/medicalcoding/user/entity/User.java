@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @Entity
 public class User {
-
+ // create entity file
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
