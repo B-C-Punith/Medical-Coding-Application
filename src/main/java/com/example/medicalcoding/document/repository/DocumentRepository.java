@@ -1,4 +1,8 @@
 package com.example.medicalcoding.document.repository;
 
-public class DocumentRepository {
+import com.example.medicalcoding.document.entity.Document;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface  DocumentRepository extends JpaRepository<Document, Long> {
+
 }
